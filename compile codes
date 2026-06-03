@@ -1,0 +1,9 @@
+gcc pc.c -o pc -lpthread
+gcc dp.c -o dp -lpthread
+gcc rw.c -o rw -lpthread
+gcc dp_ai.c -o dp_ai -pthread
+
+python3 visualizer.py 
+python3 viz.py 
+python3 rw_viz.py 
+python3 main.py
